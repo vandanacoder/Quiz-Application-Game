@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//This project based in QUIZ APPLICATION//
+//This project based in QUIZ APPLICATION
 struct User
 {
     string name;
@@ -53,9 +53,10 @@ int playquiz()
     char c;
     char option;
     playInsidefunction:
+    // Instructions are compulsory to read...
     cout<<"\n\n-----Welcome to QUIZ applicaion-----\n\n";
     cout<<"\n\n----Please follow the instructions----\n\n";
-    cout<<"[1].Quiz contain total 10 questions."<<endl;
+    cout<<"[1].Quiz contain total 20 questions(these questions are based on indian national elements and politics)."<<endl;
     cout<<"[2].Each question will give you 1 score."<<endl;
     cout<<"[3].There will be no negetive score."<<endl;
     cout<<"[4].Please press 's' to start the quiz."<<endl;
